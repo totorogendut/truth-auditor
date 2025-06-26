@@ -1,25 +1,34 @@
 import { FunctionComponent } from "react";
 import type { AIResult } from "backend/schemas";
+import FactsCheck from "./results/FactsCheck";
+import WritingAssistant from "./results/WritingAssistant";
+import SeoSuggestions from "./results/SEOSuggestions";
+import SimilarContent from "./results/SimilarContent";
+import { Button } from "./ui/button";
+import { ChevronLeft } from "lucide-react";
 
-const Counter: FunctionComponent<{
+const Component: FunctionComponent<{
   result: AIResult;
-}> = ({ result }) => {
-  const { factsCheck, writingAssistant } = result;
+  onClickBack: () => void;
+}> = ({ result, onClickBack }) => {
+  const { factsCheck, writingAssistant, seoSuggestions, similarContent } =
+    result;
   return (
-    <div>
-      <h2>Truth Auditor</h2>
-      {factsCheck && (
-        <div>
-          <h3>{factsCheck.title}</h3>
-          <strong>AI Facts check score: {factsCheck.score}</strong>
-          <div>
-            AI tells you that what you are currently writing is, in fact,{" "}
-            {JSON.stringify(factsCheck.verdict)}.
-          </div>
-        </div>
-      )}
+    <div className="flex flex-col gap-2">
+      <button
+        onClick={onClickBack}
+        className="-ml-2 flex gap-1 items-center text-sm opacity-60
+        hover:opacity-80 cursor-pointer"
+      >
+        <ChevronLeft />
+        Back
+      </button>
+      {factsCheck && <FactsCheck result={factsCheck} />}
+      {writingAssistant && <WritingAssistant result={writingAssistant} />}
+      {seoSuggestions && <SeoSuggestions result={seoSuggestions} />}
+      {similarContent && <SimilarContent result={similarContent} />}
     </div>
   );
 };
 
-export default Counter;
+export default Component;

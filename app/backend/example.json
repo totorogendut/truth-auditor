@@ -1,0 +1,64 @@
+{
+  "factsCheck": {
+    "score": 88,
+    "verdict": true,
+    "conclusion": "The text is largely accurate and aligns with reliable sources confirming the facts presented.",
+    "factsCheckSource": [
+      {
+        "name": "Reuters Fact Check",
+        "url": "https://www.reuters.com/fact-check/"
+      },
+      {
+        "name": "Snopes",
+        "url": "https://www.snopes.com/fact-check/"
+      }
+    ]
+  },
+  "writingAssistant": {
+    "score": 75,
+    "verdict": false,
+    "conclusion": "The writing is understandable but lacks clarity in several sections. Improvements are recommended for structure and grammar.",
+    "suggestions": [
+      {
+        "about": "The economy is improving rapidly.",
+        "value": "Consider specifying which economic indicators support this claim."
+      },
+      {
+        "about": "This proves our approach works.",
+        "value": "Rephrase for a more formal tone and provide supporting evidence."
+      }
+    ]
+  },
+  "seoSuggestions": {
+    "score": 60,
+    "verdict": false,
+    "conclusion": "The text lacks proper keyword usage and meta-friendly structures. Specific sections should be optimized for better search visibility.",
+    "suggestions": [
+      {
+        "about": "Our product helps people daily.",
+        "value": "Include target keywords like 'daily wellness product' for SEO optimization."
+      },
+      {
+        "about": "This solution is the best.",
+        "value": "Rephrase with targeted long-tail keywords that reflect user search intent."
+      }
+    ]
+  },
+  "similarContent": {
+    "score": 70,
+    "similarContents": [
+      {
+        "title": "Innovative Health Solutions for Everyday Life",
+        "summary": "An overview of modern health solutions designed to improve daily routines, with expert recommendations.",
+        "from": "Healthline",
+        "url": "https://www.healthline.com/health/modern-health-solutions"
+      },
+      {
+        "title": "Daily Wellness Products That Actually Work",
+        "summary": "A detailed review of popular wellness products, backed by scientific studies and consumer feedback.",
+        "from": "WebMD",
+        "url": "https://www.webmd.com/wellness/top-products-reviewed"
+      }
+    ]
+  }
+}

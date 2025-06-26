@@ -19,7 +19,10 @@ const FieldPlugin: FunctionComponent = () => {
   }
 
   const div = !!result ? (
-    <Result result={result} />
+    <Result
+      result={result}
+      onClickBack={() => setResult(null)}
+    />
   ) : (
     <Form setResult={setResult} />
   );
