@@ -41,7 +41,7 @@ const Component: FunctionComponent<{
           </>
         ))}
       </div>
-      <Separator className="my-3" />
+      <Separator className="my-5" />
     </div>
   );
 };

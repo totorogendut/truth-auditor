@@ -31,7 +31,8 @@ const Component: FunctionComponent<{
         </div>
       </div>
       <p className="opacity-80 leading-[1.1] mt-2 mb-5">{conclusion}</p>
-      <div className="flex flex-wrap justify-between text-sm gap-y-2">
+      <small className="mt-2 mb-1 opacity-80 block">Suggestions</small>
+      <div className="grid grid-cols-2 text-sm gap-2">
         {suggestions.map((data) => (
           <>
             <div
@@ -44,7 +45,7 @@ const Component: FunctionComponent<{
           </>
         ))}
       </div>
-      <Separator className="my-3" />
+      <Separator className="my-5" />
     </div>
   );
 };

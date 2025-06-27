@@ -1,8 +1,8 @@
 {
   "factsCheck": {
-    "score": 88,
+    "score": 85,
     "verdict": true,
-    "conclusion": "The text is largely accurate and aligns with reliable sources confirming the facts presented.",
+    "conclusion": "The text is factually accurate, supported by credible sources.",
     "factsCheckSource": [
       {
         "name": "Reuters Fact Check",
@@ -10,54 +10,62 @@
       },
       {
         "name": "Snopes",
-        "url": "https://www.snopes.com/fact-check/"
+        "url": "https://www.snopes.com/fact-check/example-article"
       }
     ]
   },
   "writingAssistant": {
-    "score": 75,
+    "score": 78,
     "verdict": false,
-    "conclusion": "The writing is understandable but lacks clarity in several sections. Improvements are recommended for structure and grammar.",
+    "conclusion": "The writing is clear but lacks proper structure and has grammatical issues.",
     "suggestions": [
       {
-        "about": "The economy is improving rapidly.",
-        "value": "Consider specifying which economic indicators support this claim."
+        "about": "This product is the best in the market.",
+        "value": "Avoid using absolute claims; consider supporting with data or softening the statement."
       },
       {
-        "about": "This proves our approach works.",
-        "value": "Rephrase for a more formal tone and provide supporting evidence."
+        "about": "You won't find anything better.",
+        "value": "Use more objective language to enhance credibility."
       }
     ]
   },
   "seoSuggestions": {
-    "score": 60,
-    "verdict": false,
-    "conclusion": "The text lacks proper keyword usage and meta-friendly structures. Specific sections should be optimized for better search visibility.",
+    "keywords": [
+      "daily supplements",
+      "immunity boost",
+      "health benefits"
+    ],
+    "keywordsDifficulty": 45,
+    "searchVolume": 15000,
+    "traffic": 3000,
+    "position": 9,
+    "costPerClick": 2.35,
+    "conclusion": "The text is moderately optimized but lacks effective keyword placement and meta description clarity.",
     "suggestions": [
       {
-        "about": "Our product helps people daily.",
-        "value": "Include target keywords like 'daily wellness product' for SEO optimization."
+        "about": "Boost your health with our product.",
+        "value": "Include long-tail keywords like 'daily immunity boost supplements' for better SEO impact."
       },
       {
-        "about": "This solution is the best.",
-        "value": "Rephrase with targeted long-tail keywords that reflect user search intent."
+        "about": "Stay healthy every day.",
+        "value": "Consider integrating keywords that align with user search intent, such as 'immunity routine tips'."
       }
     ]
   },
   "similarContent": {
-    "score": 70,
+    "score": 72,
     "similarContents": [
       {
-        "title": "Innovative Health Solutions for Everyday Life",
-        "summary": "An overview of modern health solutions designed to improve daily routines, with expert recommendations.",
+        "title": "The Truth About Immunity Boosters",
+        "summary": "A comprehensive guide that examines the science behind immunity-boosting supplements and debunks common myths.",
         "from": "Healthline",
-        "url": "https://www.healthline.com/health/modern-health-solutions"
+        "url": "https://www.healthline.com/nutrition/immunity-boosters"
       },
       {
-        "title": "Daily Wellness Products That Actually Work",
-        "summary": "A detailed review of popular wellness products, backed by scientific studies and consumer feedback.",
+        "title": "Best Wellness Products for Daily Use",
+        "summary": "Explore expert recommendations for supplements and health products that support overall well-being.",
         "from": "WebMD",
-        "url": "https://www.webmd.com/wellness/top-products-reviewed"
+        "url": "https://www.webmd.com/wellness/top-products"
       }
     ]
   }

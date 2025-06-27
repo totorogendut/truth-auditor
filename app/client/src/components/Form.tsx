@@ -102,7 +102,7 @@ const Counter: FunctionComponent<{
 
   return (
     <div>
-      <h2 className="text-4xl font-extrabold mb-7">Truth Auditor</h2>
+      <h2 className="text-4xl font-extrabold mb-7">Article Auditor</h2>
       {loading ? <Skeleton></Skeleton> : formDiv}
     </div>
   );

@@ -1,4 +1,4 @@
-# truth-auditor-backend
+# article-auditor-backend
 
 To install dependencies:
 
